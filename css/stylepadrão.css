@@ -1,0 +1,62 @@
+body {
+    background-color: #b2dddd;
+}
+
+.navegamenu {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.topicosmenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulomenu {
+    margin-left: 25px;
+}
+
+.linkmenu {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Calibri;
+    color: rgb(42, 42, 42);
+    display: inline;
+   
+}
+
+.linkmenu:hover {
+    color: rgb(255, 255, 255);
+}
+
+.rodape {
+    background-color: rgba(255, 255, 255, 0.521);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 1000px;
+    }
+    .navegamenu {
+        width: 600px;
+        margin-top: 50px;
+    }
+    .linkmenu {
+        font-size: 45px;
+        color: rgb(66, 66, 66);
+        font-weight: bold;
+    }
+    .rodape {
+        height: 60px;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+}

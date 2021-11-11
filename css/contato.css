@@ -1,0 +1,127 @@
+#formulario {
+    width: 700px;
+    height: 750px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+
+form label {
+    margin-bottom: 25px;
+    width: 600px;
+    color: rgb(53, 52, 52);
+}
+
+.input-padrão:focus {  
+    outline: none;
+}
+
+.input-padrão {
+    margin-bottom: 25px;
+    width: 600px;
+    background-color: rgba(255, 0, 0, 0);
+    border-width: 2px;
+    border-bottom-color: rgb(121, 121, 121);
+    border-top-color: rgba(255, 0, 0, 0);
+    border-left-color: rgba(255, 0, 0, 0);
+    border-right-color: rgba(255, 0, 0, 0);
+}
+
+.input-mensagem {
+    margin-bottom: 25px;
+    width: 600px;
+    background-color: rgba(165, 42, 42, 0);
+    border-width: 2px;
+    border-color: rgb(121, 121, 121);
+}
+
+.botao-enviar {
+    margin-top: 80px;
+    padding: 20px;
+    background-color: #b2dddd;
+    border-style: none;
+    border-radius: 10px;
+    color: rgb(53, 52, 52);
+}
+
+.botao-enviar:hover {
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.ilustrações {
+    width: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 190px;
+    right: 125px;
+}
+
+.titulo {
+    font-size: 80px;
+    font-family: Georgia;
+    color: #c1e6e6;
+}
+
+.titulo:hover {
+    transition: 1s all;
+    color: #ffffff;
+}
+
+.imggrupo {
+    width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ilustrações {
+        height: 500px;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 100px;
+    }
+    #formulario {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 900px;
+        height: 950px;
+    }
+    form label {
+        margin-bottom: 5px;
+        width: 750px;
+        font-size: 40px;
+        color: rgb(73, 72, 72);
+    }
+    .input-padrão {
+        width: 750px;
+        height: 50px;
+    }
+    .input-mensagem {
+        width: 750px;
+        height: 250px;
+    }
+    .botao-enviar {
+        margin-top: 25px;
+        border-radius: 20px;
+        color: rgb(185, 185, 185);
+        font-size: 60px;
+    }
+}

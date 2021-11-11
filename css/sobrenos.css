@@ -1,0 +1,97 @@
+.titulo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 80px;
+    font-family: Georgia;
+    color: #c1e6e6;
+}
+
+.titulo:hover {
+    transition: 1s all;
+    color: #ffffff;
+}
+
+.sessao {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.participantes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.topicoaluno {
+    width: 500px;
+    margin-bottom: 70px;
+}
+
+.topicoprofessor {
+    width: 500px;
+    margin-bottom: 70px;
+}
+
+img {
+    width: 300px;
+}
+
+img:hover {
+    transition: 1s all;
+    width: 350px;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.p {
+    font-size: 20px;
+}
+
+.link {
+    font-size: 20px;
+    color: rgb(57, 78, 83);
+}
+
+@media screen and (max-width: 1650px){
+    .titulo {
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sessao {
+        width: auto;
+        margin: 0 auto;
+        margin-top: 90px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .topicoaluno {
+        width: 800px;
+        margin-bottom: 110px;
+    }
+    .topicoprofessor {
+        width: 800px;
+        margin-bottom: 90px;
+    }
+    .h1 {
+        font-size: 60px;
+    }
+    .p {
+        font-size: 40px;
+    }
+    .link {
+        font-size: 40px;
+    }
+    .titulo {
+        z-index: -1;
+    }
+}

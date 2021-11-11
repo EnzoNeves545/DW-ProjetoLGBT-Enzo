@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> LGBTQIA+ </title>
+    <link rel="stylesheet"
+        href="C:\Users\Enzo\OneDrive\Documentos\Escolar\Desenvolvimento Web 1\Projeto LGBTQIA+ [Definitivo]\css\contato.css" />
+    <link rel="stylesheet"
+        href="C:\Users\Enzo\OneDrive\Documentos\Escolar\Desenvolvimento Web 1\Projeto LGBTQIA+ [Definitivo]\css\stylepadrão.css" />
+    <link rel="stylesheet"
+        href="C:\Users\Enzo\OneDrive\Documentos\Escolar\Desenvolvimento Web 1\Projeto LGBTQIA+ [Definitivo]\css\reset.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav class=navegamenu>
+            <ul class=topicosmenu>
+
+                <li class=titulomenu> <a class="linkmenu" href="inicial.html">Inicial</a>
+                </li>
+                <li class=titulomenu> <a class="linkmenu" href="sobrenos.html">Sobre
+                        Nós</a> </li>
+                <li class=titulomenu> <a class="linkmenu" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class=ilustrações>
+            <h class=titulo>Contato</h>
+            <img class=imggrupo
+                src="C:\Users\Enzo\OneDrive\Documentos\Escolar\Desenvolvimento Web 1\Projeto Lgbtqia+ [Definitivo]\imagens\Grupos-lgbt.png">
+
+        </div>
+
+        <form id="formulario" action="a.js" method="POST" onsubmit="return validarCampos();">
+
+            <div class=div-mensagem><span id=msgErro></span></div>
+            <label> Nome completo </label>
+            <input class="input-padrão" type="text" id="nomesobrenome">
+
+            <label> Email </label>
+            <input class="input-padrão" type="email" id="email">
+
+            <label> Telefone </label>
+            <input class="input-padrão" type="tel" id="telefone">
+
+            <label> Mensagem </label>
+            <textarea class="input-mensagem" cols="70" rows="10" id="mensagem"></textarea>
+
+            <input class="botao-enviar" type="submit" value="Enviar" class="enviar">
+
+
+        </form>
+
+
+
+
+
+
+    </main>
+
+    <footer class="rodape">
+        &copy; Enzo Euvine Cunha Neves - 2021
+    </footer>
+
+</body>
+
+</html>
