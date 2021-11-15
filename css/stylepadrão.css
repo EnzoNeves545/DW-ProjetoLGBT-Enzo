@@ -46,8 +46,12 @@ body {
         width: 1000px;
     }
     .navegamenu {
-        width: 600px;
+        width: 800px;
         margin-top: 50px;
+    }
+    .titulomenu{
+       margin-left: 40px;
+       margin-right: 40px;
     }
     .linkmenu {
         font-size: 45px;
