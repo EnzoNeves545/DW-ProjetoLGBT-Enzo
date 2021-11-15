@@ -197,10 +197,10 @@
         font-size: 150px;
     }
     .frase {
-        width: 550px;
+        width: 600px;
         font-size: 40px;
         top: 250px;
-        left: 100px;
+        left: 50px;
     }
     .imggrupo {
         width: calc(150px + 60%);
