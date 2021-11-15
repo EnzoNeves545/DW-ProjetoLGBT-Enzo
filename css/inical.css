@@ -198,7 +198,7 @@
     }
     .frase {
         width: 550px;
-        font-size: 45px;
+        font-size: 40px;
         top: 250px;
         left: 100px;
     }
@@ -231,7 +231,7 @@
         margin-bottom: 20px;
     }
     .p1 {
-        font-size: 35px;
+        font-size: 50px;
     }
 
     /****************************************************************/
@@ -245,13 +245,14 @@
     .texto2 {
         height: auto;
         margin-top: 100px;
+       padding-bottom: 100px;
         text-align: left;
     }
     .h5 {
         font-size: 70px;
     }
     .p2 {
-        font-size: 35px;
-        margin-bottom: 200px;
+        font-size: 50px;
+        margin-bottom: 40px; 
     }
 }
