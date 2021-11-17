@@ -144,23 +144,10 @@ form label {
         position: relative;
         top: 0;
         left: 0;
-        width: 900px;
-        height: 950px;
+        width: 700px;
+        height: 750px;
     }
-      form label {
-        margin-bottom: 5px;
-        width: 750px;
-        font-size: 40px;
-        color: rgb(73, 72, 72);
-    }
-    .input-padrão {
-        width: 750px;
-        height: 50px;
-    }
-    .input-mensagem {
-        width: 750px;
-        height: 250px;
-    }
+      
     .botao-enviar {
         margin-top: 25px;
         border-radius: 20px;
