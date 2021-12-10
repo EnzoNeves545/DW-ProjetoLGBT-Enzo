@@ -1,6 +1,6 @@
 .parteapresentacao {
     position: relative;
-    height: 863px;
+    height: 95vh;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -81,6 +81,7 @@
 
 .imgmãos {
     position: relative;
+    width: 650px;
     left: 33px;
 }
 
@@ -186,6 +187,91 @@
 .p2 {
     font-size: 27px;
     color: rgb(42, 42, 42);
+}
+
+.parterelatos {
+    background-color: #dbd5cf;
+    width: auto;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.h2 {
+    font-size: 80px;
+    color: #30322A;
+    border-right: 5px;
+    border-style: solid;
+    border-color: #30322A;
+    padding-right: 8px;
+    margin-right: 8px;
+
+}
+
+.h2-texto {
+    font-size: 35px;
+    text-align:left;
+    color: #30322A;
+    width: 750px;
+}
+
+.sessao-relatos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2%;
+}
+
+.bloco {
+    margin-bottom: 25px;
+    width: 30%;
+    margin: 15px;
+}
+
+.h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.texto-relatos {
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.referencias {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-referencias {
+    font-size: 20px;
+    font-family: Calibri;
+    color: rgb(42, 42, 42);
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #a5dddd;
+    font-size: 20px;
+    font-family: Calibri;
+    color: rgb(42, 42, 42);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    transition: 1s all;
+    background-color: #41b9ff;
 }
 
 @media screen and (max-width:  1100px) {
