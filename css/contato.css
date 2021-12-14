@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 form label {
@@ -58,7 +58,7 @@ form label {
     background-color: #b2dddd;
     border-style: none;
     border-radius: 10px;
-    color: rgb(53, 52, 52);
+    color: rgb(82, 82, 82);
 }
 
 .botao-enviar:hover {
@@ -73,8 +73,7 @@ form label {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;;
- 
+    margin-top: 50px; 
 }
 
 .titulo {
@@ -92,84 +91,48 @@ form label {
     width: 800px;
 }
 
-@media screen and (max-width: 1100px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+@media screen and (max-width: 768px) {
+    .parteprincipal {
+        padding-bottom: 150px;
     }
-
-    .ilustrações {
-        height: 500px;
-        position: relative;
-        top: 0;
-        left: 0;
-        margin-top: 100px;
-    }
-
     #formulario {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 900px;
-        height: 950px;
+        width: 800px;
+        height: auto;
+        padding: 30px;
     }
 
     form label {
         margin-bottom: 5px;
         width: 750px;
-        font-size: 40px;
+        font-size: 45px;
         color: rgb(73, 72, 72);
     }
 
     .input-padrão {
         width: 750px;
         height: 50px;
+        border-bottom-color: rgba(255, 0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        font-size: 45px;
     }
 
     .input-mensagem {
         width: 750px;
         height: 250px;
+        border-bottom-color: rgba(0, 0, 0, 0);
+        border-top-color: rgba(255, 0, 0, 0);
+        border-left-color: rgba(255, 0, 0, 0);
+        border-right-color: rgba(255, 0, 0, 0);
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        font-size: 45px;
     }
 
     .botao-enviar {
         margin-top: 25px;
         border-radius: 20px;
-        color: rgb(185, 185, 185);
         font-size: 60px;
     }
 }
 
-@media screen and (max-width: 1900px) {
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ilustrações {
-        height: 500px;
-        position: relative;
-        top: 0;
-        left: 0;
-        margin-top: 100px;
-    }
-
-    #formulario {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 700px;
-        height: 750px;
-        margin-bottom: 100px;
-    }
-
-    .botao-enviar {
-        margin-top: 25px;
-        border-radius: 20px;
-        color: rgb(185, 185, 185);
-        font-size: 30px;
-    }
-}

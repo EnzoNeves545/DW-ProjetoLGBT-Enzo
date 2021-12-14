@@ -17,7 +17,7 @@ body {
 .voltar {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 45%;
 }
 
 .link {
@@ -54,33 +54,31 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 50%;
+    width: 55%;
 }
 
 .imgicon {
     width: 55px;
+    margin-right: 20px;
 }
 
-
-
 .h2 {
-    font-size: 45px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     margin-right: 5px;
 }
 
 .partereferencia {
-    background-color: #b2dddd;
     width: 980px;
-    height: 95vh;
     margin: 0 auto;
     padding: 20px;
-
+    padding-bottom: 300px;
+    background-color: #b2dddd;
 }
 
 .topicos {
     width: 680px;
-    margin-left: 15px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,21 +91,62 @@ body {
     list-style: disc;
 }
 
-.rodape {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    height: 30px;
-    text-align: center;
-    padding-top: 10px;
-    bottom: 0px;
-    width: 100%;
-}
-
 @media screen and (max-width: 768px) {
-
-    .rodape {
-        height: 60px;
-        padding-top: 20px;
-        font-size: 40px;
+    body {
+        background-image: none;
     }
+
+    .orientacao {
+        width: auto;
+        padding: 15px;
+        border-width: 10px;
+    }
+
+    .voltar {
+        width: 40%;
+    }
+
+    .titulo {
+        width: 60%;
+    }
+
+    .triangulo-para-esquerda {
+        border-top: 40px solid transparent;
+        border-bottom: 40px solid transparent;
+        border-right: 40px solid #ffffff;
+    }
+
+    .triangulo-para-esquerda:hover {
+        border-right: 40px solid #27272777;
+    }
+
+    .h1 {
+        font-size: 0;
+    }
+
+    .imgicon {
+        width: 90px;
+    }
+
+    .h2 {
+        font-size: 70px;
+    }
+
+    .partereferencia {
+        padding: 10px;
+        padding-bottom: 300px;
+    }
+
+    .topicos {
+        width: auto;
+        margin-top: 55px;
+        margin-right: 5px;
+    }
+
+    .linkreferencia {
+        margin: 20px;
+        font-size: 30px;
+    }
+
+
 }

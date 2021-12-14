@@ -14,14 +14,15 @@ body {
 }
 
 .titulomenu {
+    margin-right: 25px;
     margin-left: 25px;
 }
 
 .linkmenu {
     text-decoration: none;
     font-size: 25px;
-    font-family: Calibri;
     color: rgb(42, 42, 42);
+    font-family: Calibri;
     display: inline;
    
 }
@@ -33,11 +34,9 @@ body {
 .rodape {
     background-color: rgba(255, 255, 255, 0.521);
     color: rgb(0, 0, 0);
-    height: 30px;
     text-align: center;
-    padding-top: 10px;
+    padding: 15px;
     bottom: 0px;
-    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,12 +53,10 @@ body {
     }
     .linkmenu {
         font-size: 45px;
-        color: rgb(66, 66, 66);
         font-weight: bold;
     }
     .rodape {
-        height: 60px;
-        padding-top: 20px;
+        padding: 20px;
         font-size: 40px;
     }
 }
