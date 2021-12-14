@@ -381,8 +381,8 @@
     }
 
     .sessao-relatos {
-        flex-direction: column
-        align-content: center
+        flex-direction: column;
+        align-content: center;
     }
 
     .bloco {
