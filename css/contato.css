@@ -1,5 +1,12 @@
+.partemeio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #formulario {
-    width: 700px;
+    width: 680px;
     height: 750px;
     background-color: rgb(240, 240, 240);
     border-radius: 25px;
@@ -7,24 +14,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 110px;
-    left: 100px;
+   margin-bottom: 50px;
 }
 
 form label {
-    margin-bottom: 25px;
-    width: 600px;
+    margin-top: 15px;
+    font-size: 25px;
+    width: 550px;
     color: rgb(53, 52, 52);
 }
 
-.input-padrão:focus {  
+.input-padrão:focus {
     outline: none;
 }
 
 .input-padrão {
     margin-bottom: 25px;
-    width: 600px;
+    font-size: 23px;
+    width: 550px;
+    height: 26px;
     background-color: rgba(255, 0, 0, 0);
     border-width: 2px;
     border-bottom-color: rgb(121, 121, 121);
@@ -34,15 +42,18 @@ form label {
 }
 
 .input-mensagem {
+    font-size: 23px;
     margin-bottom: 25px;
-    width: 600px;
+    height: 150px;
+    width: 550px;
     background-color: rgba(165, 42, 42, 0);
     border-width: 2px;
     border-color: rgb(121, 121, 121);
 }
 
 .botao-enviar {
-    margin-top: 80px;
+    font-size: 25px;
+    margin-top: 40px;
     padding: 20px;
     background-color: #b2dddd;
     border-style: none;
@@ -58,14 +69,12 @@ form label {
 }
 
 .ilustrações {
-    width: 900px;
-    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 190px;
-    right: 125px;
+    justify-content: center;
+    margin-top: 50px;;
+ 
 }
 
 .titulo {
@@ -90,6 +99,7 @@ form label {
         justify-content: center;
         align-items: center;
     }
+
     .ilustrações {
         height: 500px;
         position: relative;
@@ -97,6 +107,7 @@ form label {
         left: 0;
         margin-top: 100px;
     }
+
     #formulario {
         position: relative;
         top: 0;
@@ -104,20 +115,24 @@ form label {
         width: 900px;
         height: 950px;
     }
+
     form label {
         margin-bottom: 5px;
         width: 750px;
         font-size: 40px;
         color: rgb(73, 72, 72);
     }
+
     .input-padrão {
         width: 750px;
         height: 50px;
     }
+
     .input-mensagem {
         width: 750px;
         height: 250px;
     }
+
     .botao-enviar {
         margin-top: 25px;
         border-radius: 20px;
@@ -133,6 +148,7 @@ form label {
         justify-content: center;
         align-items: center;
     }
+
     .ilustrações {
         height: 500px;
         position: relative;
@@ -140,6 +156,7 @@ form label {
         left: 0;
         margin-top: 100px;
     }
+
     #formulario {
         position: relative;
         top: 0;
@@ -148,7 +165,7 @@ form label {
         height: 750px;
         margin-bottom: 100px;
     }
-      
+
     .botao-enviar {
         margin-top: 25px;
         border-radius: 20px;

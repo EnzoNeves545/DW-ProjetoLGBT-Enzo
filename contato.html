@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width">
     <title> LGBTQIA+ </title>
     <link rel="shortcut icon" href="imagens/icon.png">
-    <link rel="stylesheet"
-        href="css\contato.css" />
-    <link rel="stylesheet"
-        href="css\stylepadrão.css" />
-    <link rel="stylesheet"
-        href="css\reset.css" />
+    <link rel="stylesheet" href="css\contato.css" />
+    <link rel="stylesheet" href="css\stylepadrão.css" />
+    <link rel="stylesheet" href="css\reset.css" />
 
 </head>
 
@@ -32,33 +29,37 @@
 
     <main>
 
-        <div class=ilustrações>
-            <h class=titulo>Contato</h>
-            <img class=imggrupo
-                src="imagens\Grupos-lgbt.png">
+        <div class=parteprincipal>
 
+            <div class=partemeio>
+            
+            <div class=ilustrações>
+                <h class=titulo>Contato</h>
+                <img class=imggrupo src="imagens\Grupos-lgbt.png">
+
+            </div>
+
+            <form id="formulario" action="a.js" method="POST" onsubmit="return validarCampos();">
+
+                <div class=div-mensagem><span id=msgErro></span></div>
+                <label> Nome completo </label>
+                <input class="input-padrão" type="text" id="nomesobrenome">
+
+                <label> Email </label>
+                <input class="input-padrão" type="email" id="email">
+
+                <label> Telefone </label>
+                <input class="input-padrão" type="tel" id="telefone">
+
+                <label> Mensagem </label>
+                <textarea class="input-mensagem" cols="70" rows="10" id="mensagem"></textarea>
+
+                <input class="botao-enviar" type="submit" value="Enviar" class="enviar">
+
+            </form>
+                
         </div>
-
-        <form id="formulario" action="a.js" method="POST" onsubmit="return validarCampos();">
-
-            <div class=div-mensagem><span id=msgErro></span></div>
-            <label> Nome completo </label>
-            <input class="input-padrão" type="text" id="nomesobrenome">
-
-            <label> Email </label>
-            <input class="input-padrão" type="email" id="email">
-
-            <label> Telefone </label>
-            <input class="input-padrão" type="tel" id="telefone">
-
-            <label> Mensagem </label>
-            <textarea class="input-mensagem" cols="70" rows="10" id="mensagem"></textarea>
-
-            <input class="botao-enviar" type="submit" value="Enviar" class="enviar">
-
-
-        </form>
-
+        </div>
     </main>
 
     <footer class="rodape">

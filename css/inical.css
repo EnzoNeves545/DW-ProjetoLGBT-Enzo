@@ -107,7 +107,7 @@
 }
 
 .parteintrodutoria {
-    height: 600px;
+    padding: 50px;
     background-color: rgba(0, 116, 170, 0.527);
     display: flex;
     align-items: center;
